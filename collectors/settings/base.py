@@ -4,7 +4,6 @@ from os.path import abspath, dirname, join, normpath
 # path
 BASE_DIR = dirname(dirname(abspath(__file__)))
 SITE_ROOT = dirname(BASE_DIR)
-SECRET_FILE = normpath(join(dirname(abspath(__file__)), '.secret'))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
@@ -27,6 +26,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'cities_light',
+
+    'collection',
 ]
 
 MIDDLEWARE_CLASSES = [
