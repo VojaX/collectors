@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'pm-app',
-    template: `
-        <h1>Angular2: Getting Started</h1>
-    `
+	selector: 'cs-app',
+	template: `
+		<h1>{{pageTitle}}</h1>
+		<cs-collection-list></cs-collection-list>
+	`
 })
-export class AppComponent { }
+export class AppComponent {
+	pageTitle: string = 'Collectors stuff';
+}
