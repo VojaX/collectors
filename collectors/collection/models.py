@@ -5,6 +5,18 @@ from django.utils.translation import ugettext_lazy as _
 from collectors.utils.models import TimeStampModel
 
 
+class Category(TimeStampModel):
+    name = models.CharField(_('Name'), max_length=120)
+
+    def __str__(self):
+        return self.name
+
+    class Meta:
+        ordering = ('-created',)
+        verbose_name = _('Category')
+        verbose_name_plural = _('Categories')
+
+
 class CollectionType(TimeStampModel):
     name = models.CharField(_('Name'), max_length=120)
 
@@ -33,9 +45,12 @@ class CollectionSubType(TimeStampModel):
 
 
 class Collection(TimeStampModel):
+    category = models.ForeignKey(Category,
+                                 verbose_name=_('Category')
+                                 )
     subtype = models.ForeignKey(CollectionSubType,
-                             verbose_name=_('Type')
-                             )
+                                verbose_name=_('Type')
+                                )
     description = models.TextField(_('Description'))
     name = models.CharField(_('Name'), max_length=120)
     set = models.CharField(_('Collection'), max_length=120)
@@ -51,8 +66,9 @@ class Collection(TimeStampModel):
         on_delete=models.SET_NULL
     )
     publicated = models.DateTimeField(_('Publication Date'))
-    rewers_photo = models.URLField(_('Rewers photo'))
+    reverse_photo = models.URLField(_('Reverse photo'))
     awers_photo = models.URLField(_('Awers photo'))
+    numeration = models.CharField(_('Numeration'), max_length=120)
 
     def __str__(self):
         return self.name
@@ -61,5 +77,3 @@ class Collection(TimeStampModel):
         ordering = ('-created',)
         verbose_name = _('Colection')
         verbose_name_plural = _('Collections')
-
-
