@@ -18,33 +18,36 @@
 				<thead>
 					<tr>
 						<th>Category</th>
-						<th>Type</th>
-						<th>Subtype</th>
-						<th>Name</th>
-						<th>Set</th>
-						<th>Count</th>
-						<th>Numbers range</th>
-						<th>Release date</th>
-						<th>Country</th>
+						<th>Name and origin</th>
+						<th>Count and Numeration</th>
 						<th>Description</th>
-						<th>Face image</th>
-						<th>Reverse image</th>
+						<th>Appearance</th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr *ngFor='let collection of collections'>
-						<td>{{ collection.category }}</td>
-						<td>{{ collection.type }}</td>
-						<td>{{ collection.subtype }}</td>
-						<td>{{ collection.name }}</td>
-						<td>{{ collection.set }}</td>
-						<td>{{ collection.count }}</td>
-						<td>{{ collection.numbersRange }}</td>
-						<td>{{ collection.releaseDate }}</td>
-						<td>{{ collection.country }}</td>
-						<td>{{ collection.description }}</td>
-						<td><img src='{{collection.faceImage}}' width='100px'></td>
-						<td><img src='{{collection.reverseImage}}' width='100px'></td>
+						<td>
+							{{ collection.category }}<br>
+							{{ collection.type }}<br>
+							{{ collection.subtype }}
+						</td>
+						<td class="description">
+							<p class="bold">{{ collection.name }}<br>
+							{{ collection.set }}</p><br>
+							<hr>
+							{{ collection.country }}: {{ collection.releaseDate }}
+						</td>
+						<td>	
+							{{ collection.count }}<br>
+							{{ collection.numeration }}
+						</td>
+						<td class="description">
+							{{ collection.description }}
+						</td>
+						<td>
+							<img [src]='collection.faceImage' [title]='collection.name'><br>
+							<img [src]='collection.reverseImage' [title]='collection.name'>
+						</td>
 					</tr>
 				</tbody>
 			</table>

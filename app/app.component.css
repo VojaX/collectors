@@ -1,7 +1,21 @@
-li {
-    font-size: large;
+hr {
+    height: 2px;
+    background-color: #b3b3ff;
 }
 
-div.panel-heading {
-   font-size: x-large; 
+img {
+	padding: 5px;
+	width: 250px;
+}
+
+th {
+	font-size: 17px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.description {
+	width: 250px;
 }
