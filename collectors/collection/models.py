@@ -67,7 +67,7 @@ class Collection(TimeStampModel):
     )
     publicated = models.DateTimeField(_('Publication Date'))
     reverse_photo = models.URLField(_('Reverse photo'))
-    awers_photo = models.URLField(_('Awers photo'))
+    obverse_photo = models.URLField(_('Obverse photo'))
     numeration = models.CharField(_('Numeration'), max_length=120)
 
     def __str__(self):
