@@ -1,0 +1,4 @@
+# Development dependencies go here
+coverage
+django-debug-toolbar==1.5
+flower
