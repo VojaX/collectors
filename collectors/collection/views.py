@@ -4,6 +4,7 @@ from collectors.collection.models import Collection
 from . import serializers
 from . import services
 
+
 class CollectionListAPIView(generics.ListAPIView):
     """
     Adverts list endpoint
