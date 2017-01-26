@@ -10,7 +10,6 @@ import { Collection } from './collection';
 export class CollectionListComponent {
 	
 	constructor(private _collectionService: CollectionService){
-
 	}
 	collections: Collection[];
 	errorMessage: string;
