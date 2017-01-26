@@ -16,7 +16,6 @@ class Category(TimeStampModel):
         verbose_name = _('Category')
         verbose_name_plural = _('Categories')
 
-
 class CollectionType(TimeStampModel):
     name = models.CharField(_('Name'), max_length=120)
 
@@ -45,12 +44,12 @@ class CollectionSubType(TimeStampModel):
 
 
 class Collection(TimeStampModel):
+    subtype = models.ForeignKey(CollectionSubType,
+                             verbose_name=_('Type')
+                             )
     category = models.ForeignKey(Category,
                                  verbose_name=_('Category')
                                  )
-    subtype = models.ForeignKey(CollectionSubType,
-                                verbose_name=_('Type')
-                                )
     description = models.TextField(_('Description'))
     name = models.CharField(_('Name'), max_length=120)
     set = models.CharField(_('Collection'), max_length=120)
