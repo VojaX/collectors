@@ -140,3 +140,6 @@ target/
 bower/
 node_modules/
 yarn.lock
+typings/
+**/*.js
+**/*js.map

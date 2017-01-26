@@ -1,0 +1,56 @@
+
+<div class='panel panel-primary'>
+	<div class='panel header'>
+		<h4>Collections list</h4>
+	</div>
+	<div class='panel body'>
+		<div class='row'>
+			<div class='col-md-2'><h3>Filter by:</h3></div>
+			<div class='col-md-4'>
+				<input type='text'>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-6'><h2>Filtered by:</h2></div>
+		</div>
+		<div class='table responsive'>
+			<table class='table' *ngIf='collections && collections.length'>
+				<thead>
+					<tr>
+						<th>Category</th>
+						<th>Name and origin</th>
+						<th>Count and Numeration</th>
+						<th>Description</th>
+						<th>Appearance</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr *ngFor='let collection of collections'>
+						<td>
+							{{ collection.category }}<br>
+							{{ collection.type }}<br>
+							{{ collection.subtype }}
+						</td>
+						<td class="description">
+							<p class="bold">{{ collection.name }}<br>
+							{{ collection.set }}</p><br>
+							<hr>
+							{{ collection.country }}: {{ collection.releaseDate }}
+						</td>
+						<td>	
+							{{ collection.count }}<br>
+							{{ collection.numeration }}
+						</td>
+						<td class="description">
+							{{ collection.description }}
+						</td>
+						<td>
+							<img [src]='collection.faceImage' [title]='collection.name'><br>
+							<img [src]='collection.reverseImage' [title]='collection.name'>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
