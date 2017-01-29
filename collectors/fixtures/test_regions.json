@@ -1,0 +1,44 @@
+[
+{
+    "model": "cities_light.region",
+    "pk": 1,
+    "fields": {
+        "name_ascii": "Praha",
+        "slug": "praha",
+        "geoname_id": 3067695,
+        "alternate_names": "",
+        "name": "Praha",
+        "display_name": "Praha, Czech Republic",
+        "geoname_code": "52",
+        "country": 1
+    }
+},
+{
+    "model": "cities_light.region",
+    "pk": 2,
+    "fields": {
+        "name_ascii": "Silesian Voivodeship",
+        "slug": "silesian-voivodeship",
+        "geoname_id": 3337497,
+        "alternate_names": "Wojew\u00f3dztwo \u015bl\u0105skie,Woiwodschaft Schlesien,Vo\u00efvodie de Sil\u00e9sie,Voivodato di Slesia,Silesia",
+        "name": "Silesian Voivodeship",
+        "display_name": "Silesian Voivodeship, Poland",
+        "geoname_code": "83",
+        "country": 3
+    }
+},
+{
+    "model": "cities_light.region",
+    "pk": 3,
+    "fields": {
+        "name_ascii": "Greater Poland Voivodeship",
+        "slug": "greater-poland-voivodeship",
+        "geoname_id": 3337498,
+        "alternate_names": "Wojew\u00f3dztwo wielkopolskie,Woiwodschaft Gro\u00dfpolen,Vo\u00efvodie de Grande-Pologne,Voivodato della Grande Polonia,Voivodato de Gran Polonia",
+        "name": "Greater Poland Voivodeship",
+        "display_name": "Greater Poland Voivodeship, Poland",
+        "geoname_code": "86",
+        "country": 3
+    }
+}
+]

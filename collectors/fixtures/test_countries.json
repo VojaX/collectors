@@ -1,0 +1,50 @@
+[
+{
+    "model": "cities_light.country",
+    "pk": 1,
+    "fields": {
+        "name_ascii": "Czech Republic",
+        "slug": "czech-republic",
+        "geoname_id": 3077311,
+        "alternate_names": "Republika Czeska,Czechy,Tschechische Republik,R\u00e9publique tch\u00e8que,Tch\u00e9quie,Repubblica Ceca,Rep\u00fablica Checa,Chequia",
+        "name": "Czech Republic",
+        "code2": "CZ",
+        "code3": "CZE",
+        "continent": "EU",
+        "tld": "cz",
+        "phone": "420"
+    }
+},
+{
+    "model": "cities_light.country",
+    "pk": 2,
+    "fields": {
+        "name_ascii": "Germany",
+        "slug": "germany",
+        "geoname_id": 2921044,
+        "alternate_names": "Niemcy,Germania,Bundesrepublik Deutschland,Deutschland,Federal Republic of Germany",
+        "name": "Germany",
+        "code2": "DE",
+        "code3": "DEU",
+        "continent": "EU",
+        "tld": "de",
+        "phone": "49"
+    }
+},
+{
+    "model": "cities_light.country",
+    "pk": 3,
+    "fields": {
+        "name_ascii": "Poland",
+        "slug": "poland",
+        "geoname_id": 798544,
+        "alternate_names": "Rzeczpospolita Polska,Polska,Polonia,Polen,Pologne,Republic of Poland",
+        "name": "Poland",
+        "code2": "PL",
+        "code3": "POL",
+        "continent": "EU",
+        "tld": "pl",
+        "phone": "48"
+    }
+}
+]

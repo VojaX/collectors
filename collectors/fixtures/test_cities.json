@@ -1,0 +1,78 @@
+[
+{
+    "model": "cities_light.city",
+    "pk": 1,
+    "fields": {
+        "name_ascii": "Poznan",
+        "slug": "poznan",
+        "geoname_id": 3088171,
+        "alternate_names": "Posen,Posnania",
+        "name": "Pozna\u0144",
+        "display_name": "Pozna\u0144, Greater Poland Voivodeship, Poland",
+        "search_names": "poznanpoland poznangreaterpolandvoivodeshippoland poznanwojewodztwowielkopolskiepoland poznanwoiwodschaftgrosspolenpoland poznanvoivodiedegrandepolognepoland poznanvoivodatodellagrandepoloniapoland poznanvoivodatodegranpoloniapoland poznanrzeczpospolitapolska poznangreaterpolandvoivodeshiprzeczpospolitapolska poznanwojewodztwowielkopolskierzeczpospolitapolska poznanwoiwodschaftgrosspolenrzeczpospolitapolska poznanvoivodiedegrandepolognerzeczpospolitapolska poznanvoivodatodellagrandepoloniarzeczpospolitapolska poznanvoivodatodegranpoloniarzeczpospolitapolska poznanpolska poznangreaterpolandvoivodeshippolska poznanwojewodztwowielkopolskiepolska poznanwoiwodschaftgrosspolenpolska poznanvoivodiedegrandepolognepolska poznanvoivodatodellagrandepoloniapolska poznanvoivodatodegranpoloniapolska poznanpolonia poznangreaterpolandvoivodeshippolonia poznanwojewodztwowielkopolskiepolonia poznanwoiwodschaftgrosspolenpolonia poznanvoivodiedegrandepolognepolonia poznanvoivodatodellagrandepoloniapolonia poznanvoivodatodegranpoloniapolonia poznanpolen poznangreaterpolandvoivodeshippolen poznanwojewodztwowielkopolskiepolen poznanwoiwodschaftgrosspolenpolen poznanvoivodiedegrandepolognepolen poznanvoivodatodellagrandepoloniapolen poznanvoivodatodegranpoloniapolen poznanpologne poznangreaterpolandvoivodeshippologne poznanwojewodztwowielkopolskiepologne poznanwoiwodschaftgrosspolenpologne poznanvoivodiedegrandepolognepologne poznanvoivodatodellagrandepoloniapologne poznanvoivodatodegranpoloniapologne poznanrepublicofpoland poznangreaterpolandvoivodeshiprepublicofpoland poznanwojewodztwowielkopolskierepublicofpoland poznanwoiwodschaftgrosspolenrepublicofpoland poznanvoivodiedegrandepolognerepublicofpoland poznanvoivodatodellagrandepoloniarepublicofpoland poznanvoivodatodegranpoloniarepublicofpoland posenpoland posengreaterpolandvoivodeshippoland posenwojewodztwowielkopolskiepoland posenwoiwodschaftgrosspolenpoland posenvoivodiedegrandepolognepoland posenvoivodatodellagrandepoloniapoland posenvoivodatodegranpoloniapoland posenrzeczpospolitapolska posengreaterpolandvoivodeshiprzeczpospolitapolska posenwojewodztwowielkopolskierzeczpospolitapolska posenwoiwodschaftgrosspolenrzeczpospolitapolska posenvoivodiedegrandepolognerzeczpospolitapolska posenvoivodatodellagrandepoloniarzeczpospolitapolska posenvoivodatodegranpoloniarzeczpospolitapolska posenpolska posengreaterpolandvoivodeshippolska posenwojewodztwowielkopolskiepolska posenwoiwodschaftgrosspolenpolska posenvoivodiedegrandepolognepolska posenvoivodatodellagrandepoloniapolska posenvoivodatodegranpoloniapolska posenpolonia posengreaterpolandvoivodeshippolonia posenwojewodztwowielkopolskiepolonia posenwoiwodschaftgrosspolenpolonia posenvoivodiedegrandepolognepolonia posenvoivodatodellagrandepoloniapolonia posenvoivodatodegranpoloniapolonia posenpolen posengreaterpolandvoivodeshippolen posenwojewodztwowielkopolskiepolen posenwoiwodschaftgrosspolenpolen posenvoivodiedegrandepolognepolen posenvoivodatodellagrandepoloniapolen posenvoivodatodegranpoloniapolen posenpologne posengreaterpolandvoivodeshippologne posenwojewodztwowielkopolskiepologne posenwoiwodschaftgrosspolenpologne posenvoivodiedegrandepolognepologne posenvoivodatodellagrandepoloniapologne posenvoivodatodegranpoloniapologne posenrepublicofpoland posengreaterpolandvoivodeshiprepublicofpoland posenwojewodztwowielkopolskierepublicofpoland posenwoiwodschaftgrosspolenrepublicofpoland posenvoivodiedegrandepolognerepublicofpoland posenvoivodatodellagrandepoloniarepublicofpoland posenvoivodatodegranpoloniarepublicofpoland posnaniapoland posnaniagreaterpolandvoivodeshippoland posnaniawojewodztwowielkopolskiepoland posnaniawoiwodschaftgrosspolenpoland posnaniavoivodiedegrandepolognepoland posnaniavoivodatodellagrandepoloniapoland posnaniavoivodatodegranpoloniapoland posnaniarzeczpospolitapolska posnaniagreaterpolandvoivodeshiprzeczpospolitapolska posnaniawojewodztwowielkopolskierzeczpospolitapolska posnaniawoiwodschaftgrosspolenrzeczpospolitapolska posnaniavoivodiedegrandepolognerzeczpospolitapolska posnaniavoivodatodellagrandepoloniarzeczpospolitapolska posnaniavoivodatodegranpoloniarzeczpospolitapolska posnaniapolska posnaniagreaterpolandvoivodeshippolska posnaniawojewodztwowielkopolskiepolska posnaniawoiwodschaftgrosspolenpolska posnaniavoivodiedegrandepolognepolska posnaniavoivodatodellagrandepoloniapolska posnaniavoivodatodegranpoloniapolska posnaniapolonia posnaniagreaterpolandvoivodeshippolonia posnaniawojewodztwowielkopolskiepolonia posnaniawoiwodschaftgrosspolenpolonia posnaniavoivodiedegrandepolognepolonia posnaniavoivodatodellagrandepoloniapolonia posnaniavoivodatodegranpoloniapolonia posnaniapolen posnaniagreaterpolandvoivodeshippolen posnaniawojewodztwowielkopolskiepolen posnaniawoiwodschaftgrosspolenpolen posnaniavoivodiedegrandepolognepolen posnaniavoivodatodellagrandepoloniapolen posnaniavoivodatodegranpoloniapolen posnaniapologne posnaniagreaterpolandvoivodeshippologne posnaniawojewodztwowielkopolskiepologne posnaniawoiwodschaftgrosspolenpologne posnaniavoivodiedegrandepolognepologne posnaniavoivodatodellagrandepoloniapologne posnaniavoivodatodegranpoloniapologne posnaniarepublicofpoland posnaniagreaterpolandvoivodeshiprepublicofpoland posnaniawojewodztwowielkopolskierepublicofpoland posnaniawoiwodschaftgrosspolenrepublicofpoland posnaniavoivodiedegrandepolognerepublicofpoland posnaniavoivodatodellagrandepoloniarepublicofpoland posnaniavoivodatodegranpoloniarepublicofpoland",
+        "latitude": "52.40692",
+        "longitude": "16.92993",
+        "region": 3,
+        "country": 3,
+        "population": 570352,
+        "feature_code": "PPLA"
+    }
+},
+{
+    "model": "cities_light.city",
+    "pk": 2,
+    "fields": {
+        "name_ascii": "Poreba",
+        "slug": "poreba",
+        "geoname_id": 3088273,
+        "alternate_names": "",
+        "name": "Por\u0119ba",
+        "display_name": "Por\u0119ba, Silesian Voivodeship, Poland",
+        "search_names": "porebapoland porebasilesianvoivodeshippoland",
+        "latitude": "50.48831",
+        "longitude": "19.33903",
+        "region": 3,
+        "country": 3,
+        "population": 8718,
+        "feature_code": "PPL"
+    }
+},
+{
+    "model": "cities_light.city",
+    "pk": 3,
+    "fields": {
+        "name_ascii": "Polkowice",
+        "slug": "polkowice",
+        "geoname_id": 3088435,
+        "alternate_names": "",
+        "name": "Polkowice",
+        "display_name": "Polkowice, Lower Silesian Voivodeship, Poland",
+        "search_names": "polkowicepoland polkowicelowersilesianvoivodeshippoland",
+        "latitude": "51.50391",
+        "longitude": "16.07261",
+        "region": 3,
+        "country": 3,
+        "population": 21565,
+        "feature_code": "PPLA2"
+    }
+},
+{
+    "model": "cities_light.city",
+    "pk": 4,
+    "fields": {
+        "name_ascii": "Wroclaw",
+        "slug": "wroclaw",
+        "geoname_id": 3081368,
+        "alternate_names": "Breslau,Breslavia",
+        "name": "Wroc\u0142aw",
+        "display_name": "Wroc\u0142aw, Lower Silesian Voivodeship, Poland",
+        "search_names": "wroclawpoland wroclawlowersilesianvoivodeshippoland wroclawwojewodztwodolnoslaskiepoland wroclawwoiwodschaftniederschlesienpoland wroclawvoivodiedebassesilesiepoland wroclawvoivodatodellabassaslesiapoland wroclawbajasilesiapoland wroclawrzeczpospolitapolska wroclawlowersilesianvoivodeshiprzeczpospolitapolska wroclawwojewodztwodolnoslaskierzeczpospolitapolska wroclawwoiwodschaftniederschlesienrzeczpospolitapolska wroclawvoivodiedebassesilesierzeczpospolitapolska wroclawvoivodatodellabassaslesiarzeczpospolitapolska wroclawbajasilesiarzeczpospolitapolska wroclawpolska wroclawlowersilesianvoivodeshippolska wroclawwojewodztwodolnoslaskiepolska wroclawwoiwodschaftniederschlesienpolska wroclawvoivodiedebassesilesiepolska wroclawvoivodatodellabassaslesiapolska wroclawbajasilesiapolska wroclawpolonia wroclawlowersilesianvoivodeshippolonia wroclawwojewodztwodolnoslaskiepolonia wroclawwoiwodschaftniederschlesienpolonia wroclawvoivodiedebassesilesiepolonia wroclawvoivodatodellabassaslesiapolonia wroclawbajasilesiapolonia wroclawpolen wroclawlowersilesianvoivodeshippolen wroclawwojewodztwodolnoslaskiepolen wroclawwoiwodschaftniederschlesienpolen wroclawvoivodiedebassesilesiepolen wroclawvoivodatodellabassaslesiapolen wroclawbajasilesiapolen wroclawpologne wroclawlowersilesianvoivodeshippologne wroclawwojewodztwodolnoslaskiepologne wroclawwoiwodschaftniederschlesienpologne wroclawvoivodiedebassesilesiepologne wroclawvoivodatodellabassaslesiapologne wroclawbajasilesiapologne wroclawrepublicofpoland wroclawlowersilesianvoivodeshiprepublicofpoland wroclawwojewodztwodolnoslaskierepublicofpoland wroclawwoiwodschaftniederschlesienrepublicofpoland wroclawvoivodiedebassesilesierepublicofpoland wroclawvoivodatodellabassaslesiarepublicofpoland wroclawbajasilesiarepublicofpoland breslaupoland breslaulowersilesianvoivodeshippoland breslauwojewodztwodolnoslaskiepoland breslauwoiwodschaftniederschlesienpoland breslauvoivodiedebassesilesiepoland breslauvoivodatodellabassaslesiapoland breslaubajasilesiapoland breslaurzeczpospolitapolska breslaulowersilesianvoivodeshiprzeczpospolitapolska breslauwojewodztwodolnoslaskierzeczpospolitapolska breslauwoiwodschaftniederschlesienrzeczpospolitapolska breslauvoivodiedebassesilesierzeczpospolitapolska breslauvoivodatodellabassaslesiarzeczpospolitapolska breslaubajasilesiarzeczpospolitapolska breslaupolska breslaulowersilesianvoivodeshippolska breslauwojewodztwodolnoslaskiepolska breslauwoiwodschaftniederschlesienpolska breslauvoivodiedebassesilesiepolska breslauvoivodatodellabassaslesiapolska breslaubajasilesiapolska breslaupolonia breslaulowersilesianvoivodeshippolonia breslauwojewodztwodolnoslaskiepolonia breslauwoiwodschaftniederschlesienpolonia breslauvoivodiedebassesilesiepolonia breslauvoivodatodellabassaslesiapolonia breslaubajasilesiapolonia breslaupolen breslaulowersilesianvoivodeshippolen breslauwojewodztwodolnoslaskiepolen breslauwoiwodschaftniederschlesienpolen breslauvoivodiedebassesilesiepolen breslauvoivodatodellabassaslesiapolen breslaubajasilesiapolen breslaupologne breslaulowersilesianvoivodeshippologne breslauwojewodztwodolnoslaskiepologne breslauwoiwodschaftniederschlesienpologne breslauvoivodiedebassesilesiepologne breslauvoivodatodellabassaslesiapologne breslaubajasilesiapologne breslaurepublicofpoland breslaulowersilesianvoivodeshiprepublicofpoland breslauwojewodztwodolnoslaskierepublicofpoland breslauwoiwodschaftniederschlesienrepublicofpoland breslauvoivodiedebassesilesierepublicofpoland breslauvoivodatodellabassaslesiarepublicofpoland breslaubajasilesiarepublicofpoland breslaviapoland breslavialowersilesianvoivodeshippoland breslaviawojewodztwodolnoslaskiepoland breslaviawoiwodschaftniederschlesienpoland breslaviavoivodiedebassesilesiepoland breslaviavoivodatodellabassaslesiapoland breslaviabajasilesiapoland breslaviarzeczpospolitapolska breslavialowersilesianvoivodeshiprzeczpospolitapolska breslaviawojewodztwodolnoslaskierzeczpospolitapolska breslaviawoiwodschaftniederschlesienrzeczpospolitapolska breslaviavoivodiedebassesilesierzeczpospolitapolska breslaviavoivodatodellabassaslesiarzeczpospolitapolska breslaviabajasilesiarzeczpospolitapolska breslaviapolska breslavialowersilesianvoivodeshippolska breslaviawojewodztwodolnoslaskiepolska breslaviawoiwodschaftniederschlesienpolska breslaviavoivodiedebassesilesiepolska breslaviavoivodatodellabassaslesiapolska breslaviabajasilesiapolska breslaviapolonia breslavialowersilesianvoivodeshippolonia breslaviawojewodztwodolnoslaskiepolonia breslaviawoiwodschaftniederschlesienpolonia breslaviavoivodiedebassesilesiepolonia breslaviavoivodatodellabassaslesiapolonia breslaviabajasilesiapolonia breslaviapolen breslavialowersilesianvoivodeshippolen breslaviawojewodztwodolnoslaskiepolen breslaviawoiwodschaftniederschlesienpolen breslaviavoivodiedebassesilesiepolen breslaviavoivodatodellabassaslesiapolen breslaviabajasilesiapolen breslaviapologne breslavialowersilesianvoivodeshippologne breslaviawojewodztwodolnoslaskiepologne breslaviawoiwodschaftniederschlesienpologne breslaviavoivodiedebassesilesiepologne breslaviavoivodatodellabassaslesiapologne breslaviabajasilesiapologne breslaviarepublicofpoland breslavialowersilesianvoivodeshiprepublicofpoland breslaviawojewodztwodolnoslaskierepublicofpoland breslaviawoiwodschaftniederschlesienrepublicofpoland breslaviavoivodiedebassesilesierepublicofpoland breslaviavoivodatodellabassaslesiarepublicofpoland breslaviabajasilesiarepublicofpoland",
+        "latitude": "51.10000",
+        "longitude": "17.03333",
+        "region": 2,
+        "country": 3,
+        "population": 634893,
+        "feature_code": "PPLA"
+    }
+}
+]
