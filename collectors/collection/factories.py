@@ -44,8 +44,8 @@ class CollectionFactory(factory.DjangoModelFactory):
         lambda n: faker.date_time_between()
     )
     numeration = factory.LazyAttribute(lambda n: faker.sentence())
-    reverse_photo = 'http://example.com'
-    obverse_photo = 'http://example.com'
+    reverse_photo = 'https://unsplash.it/200/300/?random'
+    obverse_photo = 'https://unsplash.it/200/300/?random'
 
     class Meta:
         model = Collection
