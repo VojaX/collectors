@@ -2,39 +2,46 @@ from cities_light.models import Country
 from faker import Factory as FakerFactory
 import factory
 import factory.fuzzy
-from collectors.collection.models import Category, Collection, CollectionSubType, CollectionType
+from collectors.collection.models import Category, Collection, CollectionSubType, CollectionType, Set
 
 faker = FakerFactory.create('en')
 
 
-class CategoryFactory(factory.DjangoModelFactory):
+class SetFactory(factory.DjangoModelFactory):
     name = factory.LazyAttribute(lambda n: faker.sentence())
 
     class Meta:
-        model = Category
-
-
-class CollectionTypeFactory(factory.DjangoModelFactory):
-    name = factory.LazyAttribute(lambda n: faker.sentence())
-
-    class Meta:
-        model = CollectionType
+        model = Set
 
 
 class CollectionSubTypeFactory(factory.DjangoModelFactory):
     name = factory.LazyAttribute(lambda n: faker.sentence())
-    type = factory.SubFactory(CollectionTypeFactory)
+    set = factory.SubFactory(SetFactory)
 
     class Meta:
         model = CollectionSubType
 
 
-class CollectionFactory(factory.DjangoModelFactory):
+class CollectionTypeFactory(factory.DjangoModelFactory):
     name = factory.LazyAttribute(lambda n: faker.sentence())
     subtype = factory.SubFactory(CollectionSubTypeFactory)
+
+    class Meta:
+        model = CollectionType
+
+
+class CategoryFactory(factory.DjangoModelFactory):
+    name = factory.LazyAttribute(lambda n: faker.sentence())
+    type = factory.SubFactory(CollectionTypeFactory)
+
+    class Meta:
+        model = Category
+
+
+class CollectionFactory(factory.DjangoModelFactory):
+    name = factory.LazyAttribute(lambda n: faker.sentence())
     category = factory.SubFactory(CategoryFactory)
     description = factory.LazyAttribute(lambda n: faker.sentence())
-    set = factory.LazyAttribute(lambda n: faker.sentence())
     Count = factory.fuzzy.FuzzyInteger(1, 150)
     views_no = factory.fuzzy.FuzzyInteger(1, 150)
     user_possession = factory.fuzzy.FuzzyInteger(1, 150)
