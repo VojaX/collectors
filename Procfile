@@ -1,0 +1,1 @@
+web: gunicorn collectors.collectors.wsgi --log-file -
