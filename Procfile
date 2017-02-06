@@ -1,1 +1,1 @@
-web: python manage.py runserver
+web: python ./collectors/manage.py runserver
