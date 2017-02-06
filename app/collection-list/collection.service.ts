@@ -8,7 +8,7 @@ import { Collection } from './collection';
 
 @Injectable()
 export class CollectionService {
-	private _productUrl ='https://06ba8ce0.ngrok.io/api/collection/';
+	private _productUrl ='http://4e98d0e2.ngrok.io/api/collection/';
 
 	constructor(private _http: Http){
 

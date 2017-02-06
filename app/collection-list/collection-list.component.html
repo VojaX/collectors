@@ -27,26 +27,25 @@
 				<tbody>
 					<tr *ngFor='let collection of collections'>
 						<td>
-							{{ collection.category }}<br>
-							{{ collection.type }}<br>
-							{{ collection.subtype }}
+							{{ collection.category.name }}<br>
+							{{ collection.category.type.name }}<br>
 						</td>
 						<td class="description">
-							<p class="bold">{{ collection.name }}<br>
-							{{ collection.set }}</p><br>
+							<p class="bold">{{ collection.category.type.subtype.name }}<br>
+							{{ collection.category.type.subtype.set.name }}</p><br>
 							<hr>
-							{{ collection.country }}: {{ collection.releaseDate }}
+							{{ collection.country.name }}: {{ collection.publicated }}
 						</td>
 						<td>	
-							{{ collection.count }}<br>
-							{{ collection.numeration }}
+							{{ collection.numeration.count }} <span *ngIf="{{collection.numeration.forSure === false}}">(?)</span><br>
+							{{ collection.numeration.numbersRange }}
 						</td>
 						<td class="description">
 							{{ collection.description }}
 						</td>
 						<td>
-							<img [src]='collection.faceImage' [title]='collection.name'><br>
-							<img [src]='collection.reverseImage' [title]='collection.name'>
+							<img [src]='collection.obverse_photo' [title]='Observe image'><br>
+							<img [src]='collection.reverse_photo' [title]='Reverse image'>
 						</td>
 					</tr>
 				</tbody>
