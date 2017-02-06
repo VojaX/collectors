@@ -1,1 +1,1 @@
-web: python ./collectors/manage.py runserver
+web: python ./collectors/manage.py runserver 0.0.0.0:80
