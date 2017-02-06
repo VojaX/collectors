@@ -1,1 +1,1 @@
-web: python ./collectors/manage.py runserver 0.0.0.0:80
+web: python ./collectors/manage.py runserver "0.0.0.0:$PORT"
