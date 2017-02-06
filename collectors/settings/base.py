@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     # 'allauth.socialaccount.providers.facebook',
 
     'collection',
+    'comments',
+    'user',
 ]
 
 MIDDLEWARE_CLASSES = [
