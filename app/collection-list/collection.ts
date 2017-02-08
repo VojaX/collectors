@@ -1,17 +1,17 @@
 export interface Collection {
-    category: string;
-    type: string;
-    subtype: string;
-    name: string;
-    set: string;
+    categoryName: string;
+    typeName: string;
+    subtypeName: string;
+    setName: string;
     count: number;
-    numeration: string;
-    releaseDate: string;
+    numberRange: string;
+    forSure: boolean;
+    publicationDate: string;
     country: string;
     description: string;
-    faceImage: string;
-    reverseImage: string;
+    obversePhoto: string;
+    reversePhoto: string;
     likes: number;
     usersPossesing: number;
-    tags: string;
+    viewsNumber: number;
 }
