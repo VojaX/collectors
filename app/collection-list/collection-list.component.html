@@ -1,0 +1,56 @@
+
+<div class='panel panel-primary'>
+	<div class='panel header'>
+		<h4>Collections list</h4>
+	</div>
+	<div class='panel body'>
+		<div class='row'>
+			<div class='col-md-2'><h3>Filter by:</h3></div>
+			<div class='col-md-4'>
+				<input type='text'>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-6'><h2>Filtered by:</h2></div>
+		</div>
+		<div class='table responsive'>
+			<table class='table' *ngIf='collections && collections.length'>
+				<thead>
+					<tr>
+						<th>Category</th>
+						<th>Name and origin</th>
+						<th>Count and Numeration</th>
+						<th>Description</th>
+						<th>Appearance</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr *ngFor='let collection of collections'>
+						<td class='description'>
+							{{ collection.category.name }}<br>
+							{{ collection.category.type.name }}<br>
+						</td>
+						<td class='description'>
+							<p class='bold'>{{ collection.category.type.subtype.name }}<br>
+							{{ collection.category.type.subtype.set.name }}</p><br>
+							<hr>
+							{{ collection.country.name }}: {{ collection.publicated }}
+						</td>
+						<td>TEST</td>
+						<!--TODO: uncomment when forSure is added-->
+						<!--<td>	
+							{{ collection.numeration.count }} <span *ngIf='{{collection.numeration.forSure === false}}'>(?)</span><br>
+							{{ collection.numeration.numbersRange }}
+						</td>-->
+						<td class='description'>
+							{{ collection.description }}
+						</td>
+						<td>
+							<img [src]='collection.obverse_photo'><img [src]='collection.reverse_photo'>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
