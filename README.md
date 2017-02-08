@@ -1,7 +1,20 @@
-https://shielded-reaches-53075.herokuapp.com/admin
+# 1. Admin panel
 
-Login admin1
+**url:** https://shielded-reaches-53075.herokuapp.com/admin
 
-pass vojaxadmin7
+**login:** admin1
 
-https://shielded-reaches-53075.herokuapp.com
+**pass:** vojaxadmin7
+
+# 2. API
+
+**url:** https://shielded-reaches-53075.herokuapp.com/api/collection/
+
+# 3. Frontend
+
+**a)** Open a command prompt in the project's root directory
+
+**b)** Type: `npm install`
+    
+**c)** Type: `npm start`
+
