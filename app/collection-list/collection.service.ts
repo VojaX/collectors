@@ -8,14 +8,14 @@ import { Collection } from './collection';
 
 @Injectable()
 export class CollectionService {
-	private _productUrl ='http://4e98d0e2.ngrok.io/api/collection/';
+	private _collectionsUrl ='https://shielded-reaches-53075.herokuapp.com/api/collection/';
 
 	constructor(private _http: Http){
 
 	}
 
 	getCollections(): Observable<Collection[]> {
-		return this._http.get(this._productUrl)
+		return this._http.get(this._collectionsUrl)
 			.map((response: Response) => <Collection[]> response.json());
 	};
 	/*$http.get('/api/announcements/'+announcementId+'/').then(function (response) {

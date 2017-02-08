@@ -26,26 +26,27 @@
 				</thead>
 				<tbody>
 					<tr *ngFor='let collection of collections'>
-						<td>
+						<td width='150px'>
 							{{ collection.category.name }}<br>
 							{{ collection.category.type.name }}<br>
 						</td>
-						<td class="description">
+						<td width='150px'>
 							<p class="bold">{{ collection.category.type.subtype.name }}<br>
 							{{ collection.category.type.subtype.set.name }}</p><br>
 							<hr>
 							{{ collection.country.name }}: {{ collection.publicated }}
 						</td>
-						<td>	
+						<td>TEST</td>
+						<!--TODO: uncomment when forSure is added-->
+						<!--<td>	
 							{{ collection.numeration.count }} <span *ngIf="{{collection.numeration.forSure === false}}">(?)</span><br>
 							{{ collection.numeration.numbersRange }}
-						</td>
-						<td class="description">
+						</td>-->
+						<td width='150px'>
 							{{ collection.description }}
 						</td>
 						<td>
-							<img [src]='collection.obverse_photo' [title]='Observe image'><br>
-							<img [src]='collection.reverse_photo' [title]='Reverse image'>
+							<img [src]='collection.obverse_photo'><img [src]='collection.reverse_photo'>
 						</td>
 					</tr>
 				</tbody>
