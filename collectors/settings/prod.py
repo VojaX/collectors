@@ -1,5 +1,5 @@
 from os.path import abspath, dirname, join, normpath
-
+import dj_database_url
 
 # path
 BASE_DIR = dirname(dirname(abspath(__file__)))
@@ -14,7 +14,7 @@ SECRET_KEY = 'dmv1%(fam9623l(j#xpga1utxv%xj&o@*0_-e_ev79($#5ua=('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+# ALLOWED_HOSTS = ['*']
 
 SITE_ID = 1
 # Application definition
@@ -90,14 +90,17 @@ WSGI_APPLICATION = 'wsgi.application'
 DATABASES = {
    'default': {
        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-       'NAME': '',
-       'USER': '',
-       'PASSWORD': '',  # setup in local.py
-       'HOST': '127.0.0.1',
+       'NAME': 'des8s55jc1alvv',
+       'USER': 'pdnwjzzublacbh',
+       'PASSWORD': '041491b86b7f085806219be15e72b207bbb2e39425f50f6086705db910e5e9fa',  # setup in local.py
+       'HOST': 'ec2-54-163-240-7.compute-1.amazonaws.com',
        'PORT': 5432,
    }
 }
-
+import dj_database_url
+db_from_env = dj_database_url.config()
+print(db_from_env)
+DATABASES['default'].update(db_from_env)
 
 # Password validation
 # https://docs.djangoproject.com/en/1.10/ref/settings/#auth-password-validators
