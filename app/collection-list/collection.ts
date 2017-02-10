@@ -1,17 +1,35 @@
 export interface Collection {
-    categoryName: string;
-    typeName: string;
-    subtypeName: string;
-    setName: string;
-    count: number;
-    numberRange: string;
-    forSure: boolean;
-    publicationDate: string;
-    country: string;
-    description: string;
-    obversePhoto: string;
-    reversePhoto: string;
-    likes: number;
-    usersPossesing: number;
-    viewsNumber: number;
+    id: number,
+    name: string,
+    Count: number,
+    views_no: number,
+    user_possession: number,
+    likes: number,
+    publicated: string,
+    country: {
+        id: number,
+        name: string,
+        name_ascii: string,
+        code: string
+    },
+    reverse_photo: string,
+    obverse_photo: string,
+    description: string,
+    category: {
+        id: number,
+        name: string,
+        type: {
+            id: number,
+            name: string,
+            subtype: {
+                id: number,
+                name: string,
+                set: {
+                    id: number,
+                    name: string
+                }
+            }
+        }
+    },
+    numeration: string
 }

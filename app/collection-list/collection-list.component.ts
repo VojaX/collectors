@@ -13,7 +13,8 @@ export class CollectionListComponent {
 	}
 	collections: Collection[];
 	errorMessage: string;
-	
+	countryFilter: string = '';
+
 	ngOnInit(): void {
 		this._collectionService.getCollections()
 			.subscribe(collections => this.collections = collections,
