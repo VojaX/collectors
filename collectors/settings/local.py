@@ -1,1 +1,13 @@
-# Django local env settings for project.from .dev import *# settings will go here# database# DATABASES['default'].update({#     'NAME': 'test',#     'USER': 'postgres',#     'PASSWORD': 'iwko',#     'HOST': '127.0.0.1'# })LANGUAGES = [    ('pl', 'Polish'),    # ('de', 'German'),    # ('en', 'English'),    # ('it', 'Italian'),    # ('es', 'Spanish'),    # ('fr', 'French'),    # ('cs', 'Czech'),]
+# Django local env settings for project.
+from .dev import *
+
+
+DATABASES['default'].update({
+    'NAME': '',
+    'USER': '',
+    'PASSWORD': '',
+    'HOST': '127.0.0.1'
+})
+
+
+
