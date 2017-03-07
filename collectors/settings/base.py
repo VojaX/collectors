@@ -9,7 +9,7 @@ SITE_ROOT = dirname(BASE_DIR)
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'dmv1%(fam9623l(j#xpga1utxv%xj&o@*0_-e_ev79($#5ua=('
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
